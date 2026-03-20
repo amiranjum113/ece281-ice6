@@ -84,6 +84,7 @@ begin
 		elsif rising_edge(i_clk) then
 			f_sel <= f_sel + 1;
 		end if;
+		
 	end process twoBitCounter_proc;
 	-----------------------------------------------------
 	
